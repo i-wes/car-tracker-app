@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="brand-logo-container">
           <CarFront size={28} className="brand-icon" strokeWidth={2.5} />
         </div>
-        <span className="brand-name">CarTracker</span>
+        <span className="brand-name">CarFlow</span>
       </div>
       <div className="nav-links">
         <NavLink to="/" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>

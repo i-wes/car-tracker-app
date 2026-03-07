@@ -33,7 +33,7 @@ const Login = () => {
       <div className="auth-card glass-panel">
         <div className="auth-header">
           <Car size={48} className="auth-icon" />
-          <h2>CarTracker</h2>
+          <h2>CarFlow</h2>
           <p className="text-muted">Zaloguj się, aby zarządzać wydatkami.</p>
         </div>
 
