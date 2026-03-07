@@ -86,12 +86,6 @@
     border-top: none;
     flex-direction: column;
     gap: 0.75rem;
-    position: relative; /* Odpinamy navbar by można go było przewinąć zjechać palcem do góry i zyskać ekran */
-    top: 0;
-    background: #161e2d; /* Solidne złączenie koloru z górnym paskiem PWA bez przezroczystości */
-    border: none;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
   }
   
   .brand-name {
