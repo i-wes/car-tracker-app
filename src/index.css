@@ -2,7 +2,7 @@
 
 :root {
   /* Colors */
-  --bg-color: #1e293b; /* Stalowy granat (Soft Dark) */
+  --bg-color: #0b0f19; /* Nocny, chłodny granat wpadający w czerń dający głęboki kontrast z szklanymi tablicami */
   --panel-bg: rgba(51, 65, 85, 0.4); /* Półprzezroczysty, jaśniejszy stalowy */
   --panel-border: rgba(255, 255, 255, 0.15);
   --text-main: #f8fafc; /* Krystaliczna biel dająca kontrast */
