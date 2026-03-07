@@ -45,6 +45,19 @@ body {
   background-attachment: fixed;
 }
 
+/* Faux Status Bar - fizyczna ochrona wokół Notcha / Dynamic Island przed przesuwanym tekstem */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: env(safe-area-inset-top);
+  background-color: #161e2d; /* Kolor status-bara Apple / Navbara */
+  z-index: 9999;
+  pointer-events: none;
+}
+
 #root {
   width: 100%;
   display: flex;
