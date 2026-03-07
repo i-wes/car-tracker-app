@@ -4,7 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0b0f19",
-  "theme_color": "#0b0f19",
+  "theme_color": "#161e2d",
   "description": "Zarządzaj wydatkami na swój samochód w elegancki sposób.",
   "icons": [
     {
