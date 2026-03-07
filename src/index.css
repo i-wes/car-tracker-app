@@ -74,6 +74,7 @@ body {
   transition: all 0.2s ease;
   border: none;
   outline: none;
+  text-decoration: none;
 }
 
 .btn-primary {
