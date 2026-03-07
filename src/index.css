@@ -126,3 +126,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+
+/* Skurczenie całego interfejsu "rem" o ok. 12% na ekranach telefonów, by aplikacja nie była "przytłaczająca" w gabarytach */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
