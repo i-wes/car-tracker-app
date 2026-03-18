@@ -7,6 +7,7 @@ import History from './pages/History';
 import Reminders from './pages/Reminders';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import LandingPage from './pages/LandingPage';
 import PrivateRoute from './components/PrivateRoute';
 import { AuthProvider } from './context/AuthContext';
 import { ExpenseProvider } from './context/ExpenseContext';
@@ -16,6 +17,7 @@ function App() {
     <BrowserRouter>
       <AuthProvider>
         <Routes>
+          <Route path="/welcome" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/" element={<PrivateRoute><ExpenseProvider><Layout /></ExpenseProvider></PrivateRoute>}>
@@ -24,7 +26,7 @@ function App() {
             <Route path="history" element={<History />} />
             <Route path="reminders" element={<Reminders />} />
           </Route>
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="/welcome" />} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>
